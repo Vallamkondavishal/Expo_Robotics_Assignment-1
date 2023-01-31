@@ -90,6 +90,18 @@
     
 
 
+    <!-- http://bnc/exp-rob-lab/2022-23#X-coordinates -->
+
+    <owl:DatatypeProperty rdf:about="http://bnc/exp-rob-lab/2022-23#X-coordinates"/>
+    
+
+
+    <!-- http://bnc/exp-rob-lab/2022-23#Y-coordinates -->
+
+    <owl:DatatypeProperty rdf:about="http://bnc/exp-rob-lab/2022-23#Y-coordinates"/>
+    
+
+
     <!-- http://bnc/exp-rob-lab/2022-23#now -->
 
     <owl:DatatypeProperty rdf:about="http://bnc/exp-rob-lab/2022-23#now">
@@ -226,7 +238,8 @@
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D5"/>
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D6"/>
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D7"/>
-        <visitedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1665579740</visitedAt>
+        <X-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.5</X-coordinates>
+        <Y-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</Y-coordinates>
     </owl:NamedIndividual>
     
 
@@ -239,6 +252,8 @@
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D5"/>
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D6"/>
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D7"/>
+        <X-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</X-coordinates>
+        <Y-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</Y-coordinates>
     </owl:NamedIndividual>
     
 
@@ -288,8 +303,11 @@
     <!-- http://bnc/exp-rob-lab/2022-23#E -->
 
     <owl:NamedIndividual rdf:about="http://bnc/exp-rob-lab/2022-23#E">
+        <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D5"/>
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D6"/>
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D7"/>
+        <X-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</X-coordinates>
+        <Y-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</Y-coordinates>
     </owl:NamedIndividual>
     
 
@@ -298,6 +316,8 @@
 
     <owl:NamedIndividual rdf:about="http://bnc/exp-rob-lab/2022-23#R1">
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D1"/>
+        <X-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-7.0</X-coordinates>
+        <Y-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</Y-coordinates>
         <visitedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1665579710</visitedAt>
     </owl:NamedIndividual>
     
@@ -307,6 +327,8 @@
 
     <owl:NamedIndividual rdf:about="http://bnc/exp-rob-lab/2022-23#R2">
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D2"/>
+        <X-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-7.0</X-coordinates>
+        <Y-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.0</Y-coordinates>
         <visitedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1665579735</visitedAt>
     </owl:NamedIndividual>
     
@@ -316,6 +338,9 @@
 
     <owl:NamedIndividual rdf:about="http://bnc/exp-rob-lab/2022-23#R3">
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D3"/>
+        <X-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</X-coordinates>
+        <Y-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</Y-coordinates>
+        <visitedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1673234829</visitedAt>
     </owl:NamedIndividual>
     
 
@@ -324,6 +349,9 @@
 
     <owl:NamedIndividual rdf:about="http://bnc/exp-rob-lab/2022-23#R4">
         <hasDoor rdf:resource="http://bnc/exp-rob-lab/2022-23#D4"/>
+        <X-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</X-coordinates>
+        <Y-coordinates rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.0</Y-coordinates>
+        <visitedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1673234835</visitedAt>
     </owl:NamedIndividual>
     
 
@@ -384,16 +412,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://bnc/exp-rob-lab/d">
+    <rdf:Description rdf:about="http://bnc/exp-rob-lab/2022-23#d">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://bnc/exp-rob-lab/l1">
+    <rdf:Description rdf:about="http://bnc/exp-rob-lab/2022-23#l1">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://bnc/exp-rob-lab/l2">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://bnc/exp-rob-lab/r">
+    <rdf:Description rdf:about="http://bnc/exp-rob-lab/2022-23#l2">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bnc/exp-rob-lab/2022-23#r">
@@ -406,9 +431,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bnc/exp-rob-lab/2022-23#v">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://bnc/exp-rob-lab/2022-23#d">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://bnc/exp-rob-lab/2022-23#h">
@@ -426,7 +448,7 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#DOOR"/>
-                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/d"/>
+                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -436,7 +458,7 @@
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                 <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#LOCATION"/>
-                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l1"/>
+                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l1"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -446,7 +468,7 @@
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                         <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#LOCATION"/>
-                                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l2"/>
+                                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l2"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -456,8 +478,8 @@
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                                 <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#hasDoor"/>
-                                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l2"/>
-                                                <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/d"/>
+                                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l2"/>
+                                                <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/2022-23#d"/>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -467,8 +489,8 @@
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                                         <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#hasDoor"/>
-                                                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l1"/>
-                                                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/d"/>
+                                                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l1"/>
+                                                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/2022-23#d"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest>
@@ -477,8 +499,8 @@
                                                         <rdf:first>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
-                                                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l1"/>
-                                                                <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/l2"/>
+                                                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l1"/>
+                                                                <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/2022-23#l2"/>
                                                             </rdf:Description>
                                                         </rdf:first>
                                                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -501,103 +523,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#connectedTo"/>
-                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l1"/>
-                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/l2"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infer the location that the robot can reach.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reachability</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#LOCATION"/>
-                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l1"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#LOCATION"/>
-                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l2"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
-                                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l1"/>
-                                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/l2"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#ROBOT"/>
-                                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/r"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#isIn"/>
-                                                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/r"/>
-                                                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/l1"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#connectedTo"/>
-                                                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/l1"/>
-                                                                <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/l2"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#canReach"/>
-                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/r"/>
-                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/l2"/>
+                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l1"/>
+                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/2022-23#l2"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -712,6 +639,101 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#URGENT"/>
                         <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infer the location that the robot can reach.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reachability</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#LOCATION"/>
+                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#LOCATION"/>
+                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l1"/>
+                                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/2022-23#l2"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#ROBOT"/>
+                                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#r"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#isIn"/>
+                                                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#r"/>
+                                                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/2022-23#l1"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#connectedTo"/>
+                                                                <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#l1"/>
+                                                                <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/2022-23#l2"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://bnc/exp-rob-lab/2022-23#canReach"/>
+                        <swrl:argument1 rdf:resource="http://bnc/exp-rob-lab/2022-23#r"/>
+                        <swrl:argument2 rdf:resource="http://bnc/exp-rob-lab/2022-23#l2"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
