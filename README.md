@@ -91,7 +91,7 @@ $ rosrun rqt_graph rqt_graph
 ```
 
 
-## II) Video with smach viewer:
+## II) Smach viewer:
 The following video shows the package running in action, also in parallel the smach viewer that shows each state the robot is in. Please note that the ontology building has already been made and this is only the finite state machine working with armor. If you compare this running diagram with the one presented previously in the Software Architecture section, you will see that the *finitestates* node performs exactly the designed architecture.
 The smach viewer can be run with the following command:
 
@@ -102,7 +102,7 @@ $ rosrun smach_viewer smach_viewer.py
    
  
 
-## II) Rqt diagram:  
+## III) Rqt diagram:  
 
 The following diagram shows the rqt graph of the package running and how the nodes communicate with each other.
 
