@@ -34,10 +34,10 @@ This illustration depicts the connections between all nodes to the Finite_state_
 
 ## III) Finite State Machine diagram:  
 The main software, the one of the Finite State Machine is composed of four states: 
-1) Lode_envornment
+1) Load_Envornment
 2) Normal mode (in_corridor)
 3) Visit rooms (room_emergency)
-4) Charging (In_E_corridor)
+4) Recharging (In_E_corridor)
 
 
 
